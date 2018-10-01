@@ -1,7 +1,7 @@
 /*!
- * Start Bootstrap - Creative v5.0.1 (https://startbootstrap.com/template-overviews/creative)
+ * Start Bootstrap - KM Cleaning v5.0.1 (https://kmcleaning.bid)
  * Copyright 2013-2018 Start Bootstrap
- * Licensed under MIT (https://github.com/BlackrockDigital/startbootstrap-creative/blob/master/LICENSE)
+ * Licensed under MIT (https://github.com/BlackrockDigital/km-cleaning/blob/master/LICENSE)
  */
 
 body,
@@ -133,6 +133,10 @@ img::-moz-selection {
   background-color: transparent;
 }
 
+#mainNav .logo {
+  padding-right: 20px;
+}
+
 @media (min-width: 992px) {
   #mainNav {
     border-color: transparent;
@@ -155,6 +159,9 @@ img::-moz-selection {
   #mainNav .navbar-nav > li.nav-item > a.nav-link:focus:hover {
     color: #fff;
   }
+  #mainNav .logo {
+    display: none;
+  }
   #mainNav.navbar-shrink {
     border-bottom: 1px solid rgba(33, 37, 41, 0.1);
     background-color: #fff;
@@ -164,6 +171,9 @@ img::-moz-selection {
   }
   #mainNav.navbar-shrink .navbar-brand:focus, #mainNav.navbar-shrink .navbar-brand:hover {
     color: #7e57c2;
+  }
+  #mainNav.navbar-shrink .logo {
+    display: inline;
   }
   #mainNav.navbar-shrink .navbar-nav > li.nav-item > a.nav-link,
   #mainNav.navbar-shrink .navbar-nav > li.nav-item > a.nav-link:focus {

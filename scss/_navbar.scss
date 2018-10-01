@@ -35,6 +35,9 @@
       }
     }
   }
+  .logo {
+    padding-right: 20px;
+  }
   @media (min-width: 992px) {
     border-color: transparent;
     background-color: transparent;
@@ -55,6 +58,9 @@
         color: $white;
       }
     }
+    .logo {
+      display: none;
+    }
     &.navbar-shrink {
       border-bottom: 1px solid fade-out($gray-900, .9);
       background-color: $white;
@@ -64,6 +70,9 @@
         &:hover {
           color: darken($primary, .1);
         }
+      }
+      .logo {
+        display: inline;
       }
       .navbar-nav > li.nav-item > a.nav-link,
       .navbar-nav > li.nav-item > a.nav-link:focus {
