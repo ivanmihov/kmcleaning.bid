@@ -1,0 +1,14 @@
+// Styling for the areas section
+
+#areas ul li {
+    display: inline;
+}
+
+#areas ul li:before {
+    content: '\00a0\2022\00a0\00a0';
+    font-size: 15px;
+}
+
+#areas ul li:first-child:before {
+    content: '';
+}
